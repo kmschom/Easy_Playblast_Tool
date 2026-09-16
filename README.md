@@ -1,6 +1,6 @@
 A script for quickly playblasting from multiple cameras in Maya.
 
-I often need to playblast from multiple camera angles for my animation assignments. It's tedious to have to switch to each camera view and go through the same playblast settings just to change the name of the file being exported. I had tried implementing third-party tools, but none of them worked properly.
+I often need to playblast from multiple camera angles for my animation assignments. It's tedious to have to switch to each camera view and go through the same playblast settings just to change the name of the file being exported. I had tried implementing third-party tools, but none of them worked properly. This script was originally written by Kim Maglalang as a UI template for any kind of tool in Maya. I modified it as part of my "Programming in Maya" workshop series with WIA x AM to be a playblast tool.
 
 This script can be added to any Maya shelf and, when clicked on, will cause a window to pop up with a button titled "Playblast". When you click that button, this tool cycles through every camera on it's list and playblasts from according to the settings set up by the user. To create the list of cameras, specify the playblast settings, and set the file names, the user must manually edit the code. You can do so by right-clicking on the script button in the shelf and selecting "Edit".
 
